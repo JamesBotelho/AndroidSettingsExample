@@ -4,6 +4,7 @@
     <PreferenceCategory app:title="@string/font_header">
 
         <SeekBarPreference
+            app:key="size"
             app:title="@string/font_size_title"
             app:defaultValue="14"
             android:max="50"

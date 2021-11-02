@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">SettingsExample</string>
 
+    <string name="font_size_desc_value">Font Size: %d</string>
+    <string name="your_signature_desc_value">Your Signature: %s</string>
+    <string name="def_reply_action_desc_value">Default Reply Action: %s</string>
+    <string name="sync_email_periodically_desc_value">Sync email Periodically: %s</string>
+    <string name="download_attachments_desc_value">Download incoming attachments: %s</string>
+
     <string name="settings_button">Settings</string>
 
     <!-- Preference Titles -->
