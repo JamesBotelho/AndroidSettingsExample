@@ -1,7 +1,8 @@
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory app:title="@string/font_header">
+    <PreferenceCategory app:title="@string/font_header"
+        app:icon="@drawable/ic_baseline_font_download_24">
 
         <SeekBarPreference
             app:key="size"
@@ -13,7 +14,8 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory app:title="@string/messages_header">
+    <PreferenceCategory app:title="@string/messages_header"
+        app:icon="@drawable/ic_baseline_message_24">
 
         <EditTextPreference
             app:key="signature"
@@ -30,7 +32,8 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory app:title="@string/sync_header">
+    <PreferenceCategory app:title="@string/sync_header"
+        app:icon="@drawable/ic_baseline_sync_24">
 
         <SwitchPreferenceCompat
             app:key="sync"
